@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishangi's Mundan Sanskaram & Baby Welcome</title>
+    
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-blue: #e3edf7;
+            --dark-blue: #1a365d;
+            --gold: #d4af37;
+            --white: #ffffff;
+            --card-bg: rgba(255, 255, 255, 0.85);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #f0f4f8 0%, #d9e4f5 50%, #ccdcf2 100%);
+            color: var(--dark-blue);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+            position: relative;
+            padding: 30px 15px;
+        }
+
+        /* Ambient luxury lighting gradient overlay */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at 10% 20%, rgba(255,255,255,0.5) 0%, transparent 40%),
+                        radial-gradient(circle at 90% 80%, rgba(212,175,55,0.06) 0%, transparent 40%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Typography and Header Styling */
+        header {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .blessing-text {
+            font-family: 'Cinzel', serif;
+            font-size: 0.85rem;
+            color: var(--gold);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.75rem;
+            color: var(--dark-blue);
+            line-height: 1.3;
+            font-weight: 700;
+        }
+
+        .ampersand {
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            color: var(--gold);
+            display: block;
+            margin: 4px 0;
+        }
+
+        h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.4rem;
+            color: #2b4c7e;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+
+        /* Elegant Divider Line */
+        .divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px auto 5px auto;
+            width: 50%;
+        }
+
+        .divider::before, .divider::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--gold), transparent);
+        }
+
+        .divider-flower {
+            color: var(--gold);
+            margin: 0 10px;
+            font-size: 0.9rem;
+        }
+
+        /* Styled Glass-Morphism Cards */
+        .card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(26, 54, 93, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        /* Video Container optimized for vertical aspect ratio */
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 177.78%; /* Perfect 9:16 vertical video frame */
+            height: 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            background-color: #050b14;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .welcome-note {
+            text-align: center;
+            font-family: 'Cinzel', serif;
+            font-size: 1.15rem;
+            color: var(--dark-blue);
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: 5px 0;
+        }
+
+        /* Form Frame Box */
+        .rsvp-container {
+            width: 100%;
+            position: relative;
+        }
+
+        .rsvp-container iframe {
+            width: 100%;
+            border: none;
+            background: transparent;
+        }
+
+        /* Smooth Entry Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Mobile Breakpoint */
+        @media (max-width: 480px) {
+            h1 { font-size: 1.45rem; }
+            h2 { font-size: 1.15rem; }
+            .ampersand { font-size: 1.7rem; }
+            .card { padding: 12px; border-radius: 16px; }
+            .container { gap: 20px; }
+            .welcome-note { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Luxury Title Header -->
+        <header>
+            <div class="blessing-text">✨ A Day of Blessings & Joy ✨</div>
+            <h1>Krishangi's Mundan Sanskaram</h1>
+            <span class="ampersand">&</span>
+            <h2>Welcoming Our Little Boy</h2>
+            <div class="divider">
+                <span class="divider-flower">🌸</span>
+            </div>
+        </header>
+
+        <!-- Video Display Card -->
+        <div class="card">
+    <div class="video-container">
+        <video controls playsinline preload="metadata">
+            <source src="https://res.cloudinary.com/awpjedrb/video/upload/v1783951298/updated_video_yg7mtu.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+            </div>
+        </div>
+
+        <!-- Connection Message -->
+        <div class="welcome-note">
+            We Can't Wait To Celebrate With You!
+        </div>
+
+        <!-- Embedded Jotform Card -->
+        <div class="card">
+            <div class="rsvp-container">
+                <iframe
+                  id="JotFormIFrame-261875499248072"
+                  title="RSVP Form"
+                  onload="window.parent.scrollTo(0,0)"
+                  allowtransparency="true"
+                  allow="geolocation; microphone; camera; fullscreen"
+                  src="https://form.jotform.com/261875499248072"
+                  frameborder="0"
+                  style="min-width:100%; max-width:100%; height:530px; border:none;"
+                  scrolling="no">
+                </iframe>
+                
+                <!-- Jotform Native Responsive Resizer script -->
+                <script type="text/javascript">
+                  var ifr = document.getElementById("JotFormIFrame-261875499248072");
+                  if (ifr) {
+                    var src = ifr.src;
+                    var iframeParams = [];
+                    if (window.location.href && window.location.href.indexOf("?") > -1) {
+                      iframeParams = window.location.href.split("?")[1].split("&");
+                    }
+                    if (iframeParams && iframeParams.length > 0) {
+                      for (var i = 0; i < iframeParams.length; i++) {
+                        if (src.indexOf("?") > -1) {
+                          src += "&" + iframeParams[i];
+                        } else {
+                          src += "?" + iframeParams[i];
+                        }
+                      }
+                    }
+                    ifr.src = src;
+                  }
+                  window.handleIFrameMessage = function(e) {
+                    if (typeof e.data === 'object') { return; }
+                    var args = e.data.split(":");
+                    if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+                    if (!iframe) { return; }
+                    switch (args[0]) {
+                      case "scrollIntoView":
+                        iframe.scrollIntoView();
+                        break;
+                      case "setHeight":
+                        iframe.style.height = args[1] + "px";
+                        break;
+                      case "collapseErrorPage":
+                        if (iframe.clientHeight > window.innerHeight) {
+                          iframe.style.height = window.innerHeight + "px";
+                        }
+                        break;
+                    }
+                  };
+                  if (window.addEventListener) {
+                    window.addEventListener("message", window.handleIFrameMessage, false);
+                  } else if (window.attachEvent) {
+                    window.attachEvent("onmessage", window.handleIFrameMessage);
+                  }
+                </script>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
